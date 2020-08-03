@@ -1,0 +1,1229 @@
+body {
+  font-family: 'Poor Story', cursive;
+  background-color: #dba901;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.file-upload {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #ffffff;
+  background: #F3F781;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #F3F781;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+#loading{
+    display: none;
+}
+
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 4px dashed #F3F781;
+  position: relative;
+  object-fit: contain;  
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #1FB264;
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #F2F5A9;
+  padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0; 
+  transition: all .2s ease;
+} 
+
+.nav-distance{
+    padding: 2.1% 7.7%
+}
+
+.navbar-light.navbar-brand{
+    line-height: 1.68; 
+    text-align: left;
+    color: #ffffff; 
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Gugi', cursive;
+    font-size: 2rem;
+    color: rgba(255,255,255);
+}
+
+
+.section {
+    margin-top: 100px;
+}
+
+.title{
+    line-height: 1.67;
+    text-align: center;
+    color: #ffffff;
+}
+
+.subtitle{
+   
+    line-height: 1.53;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 10px;
+  }
+    .navbar-brand{
+         font-size: 2rem;
+    }
+} 
+
+.youtube-link{
+   
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-link:hover{
+   
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-icon{
+    width: 4%;
+    height: 4%;
+}
+
+.file-upload{
+    background-color: #ffffff;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    border: solid 1.5px #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-upload-wrap{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 4px #000000;
+    background color: #F7D358;
+    margin: 0 auto;
+}
+
+.image-upload-wrap:hover{
+    background-color: #FACC2E;
+    border: 4px dashed #000000;
+}
+
+.drag-text h3 {
+    font-weight: 10%, bold;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1.53;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.file-upload-image {
+    max-height: 50%;
+    max-width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.spinner-grow {
+    display: inline-flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: text-bottom;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: spinner-grow .75s linear infinite;
+    animation: spinner-grow .75s linear infinite;
+    margin-left: -4em;
+}
+
+.percent-text {
+  font-size: 1rem;
+  color: #6E6E6E;
+    /*퍼센트*/
+}
+.animal-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+    color: #000000;
+    font-weight: bold;
+    /*강아지 종류*/
+}
+
+.result-message {
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+    /*결과 메시지*/
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(252,204,0);
+}
+
+.footer{
+     background-color: initial;
+    color: initial;
+}
+
+.bar-container{
+    height: 2.7rem;
+}
+
+.골든리트리버-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.골든리트리버-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #F5DA81;
+}
+
+.그레이하운드-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.그레이하운드-bar{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #6E6E6E;
+}
+
+.닥스훈트-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.닥스훈트-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #610B0B;
+}
+
+.도베르만핀셔-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.도베르만핀셔-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #151515;
+}
+
+.러프콜리-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.러프콜리-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #F5D0A9;
+}
+
+.로트와일러-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.로트와일러-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #585858;
+}
+
+.말티즈-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.말티즈-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #CEF6F5;
+}
+
+.미니어처슈나우저-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.미니어처슈나우저-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #BEF781;
+}
+
+.미니어쳐핀셔-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.미니어쳐핀셔-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #FA8258;
+}
+
+.바셋하운드-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.바셋하운드-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #3B0B39;
+}
+
+.버니즈마운틴독-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.버니즈마운틴독-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #413434;
+}
+
+.보더콜리-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.보더콜리-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #0174DF;
+}
+
+.불독-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.불독-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #FF4000;
+}
+
+.비글-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.비글-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #B45F04;
+}
+
+.비숑프리제-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.비숑프리제-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #D8D8D8;
+}
+
+.비즐라-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.비즐라-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #8000FF;
+}
+
+.삽살개-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.삽살개-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #D0F5A9;
+}
+
+.셔틀랜드쉽독-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.셔틀랜드쉽독-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #F5BCA9;
+}
+
+.스코티시테리어-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.스코티시테리어-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #FA58F4;
+}
+
+.시바견-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.시바견-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #FE9A2E;
+}
+
+.시베리안허스키-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.시베리안허스키-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #E3CEF6;
+}
+
+.시추-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.시추-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #E0F8F7;
+}
+
+.아프간하운드-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.아프간하운드-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #3104B4;
+}
+
+.알래스칸말라뮤트-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.알래스칸말라뮤트-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #A9D0F5;
+}
+
+.에어데일테리어-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.에어데일테리어-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #81F79F;
+}
+
+.올드잉글리시쉽독-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.올드잉글리시쉽독-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #D8F781;
+}
+
+.요크셔테리어-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.요크셔테리어-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #31B404;
+}
+
+.웰시코기-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.웰시코기-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #FF8000;
+}
+
+.저먼셰퍼드-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.저먼셰퍼드-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #610B21;
+}
+
+.진돗개-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.진돗개-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #CEE3F6;
+}
+
+.차우차우-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.차우차우-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #E1D740;
+}
+
+.치와와-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.치와와-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #A9F5D0;
+}
+
+.코커스패니얼-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.코커스패니얼-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #D0F5A9;
+}
+
+.파피용-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.파피용-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #8904B1;
+}
+
+.포메라니안-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.포메라니안-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #A4A4A4;
+}
+
+.푸들-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.푸들-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #8A4B08;
+}
+
+.풍산개-box{
+      position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F3F781;
+}
+
+.풍산개-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #F8E0E0;
+}
+
+.text-center {
+    text-align: center!important;
+    color: #000000;
+}
+
+
+.spinner-grow {
+    display: inline-flex;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: text-bottom;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: spinner-grow .75s linear infinite;
+    animation: spinner-grow .75s linear infinite;
+    margin-left: 42.3%; 
+}
+
+.골든리트리버-dog-title{
+    color: #F5DA81;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.그레이하운드-dog-title{
+    color: #6E6E6E;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.닥스훈트-dog-title{
+    color: #610B0B;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.도베르만핀셔-dog-title{
+    color: #151515;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.러프콜리-dog-title{
+    color: #F5D0A9;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.로트와일러-dog-title{
+    color: #585858;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.말티즈-dog-title{
+    color: #CEF6F5;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.미니어처슈나우저-dog-title{
+    color: #BEF781;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.미니어쳐핀셔-dog-title{
+    color: #FA8258;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.바셋하운드-dog-title{
+    color: #3B0B39;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.버니즈마운틴독-dog-title{
+    color: #413434;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.보더콜리-dog-title{
+    color: #0174DF;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.불독-dog-title{
+    color: #FF4000;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.비글-dog-title{
+    color: #B45F04;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.비숑프리제-dog-title{
+    color: #D8D8D8;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.비즐라-dog-title{
+    color: #8000FF;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.삽살개-dog-title{
+    color: #D0F5A9;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.셔틀랜드쉽독-dog-title{
+    color: #F5BCA9;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.스코티시테리어-dog-title{
+    color: #FA58F4;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.시바견-dog-title{
+    color: #FE9A2E;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.시베리안허스키-dog-title{
+    color: #E3CEF6;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.시추-dog-title{
+    color: #E0F8F7;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.아프간하운드-dog-title{
+    color: #3104B4;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.알래스칸말라뮤트-dog-title{
+    color: #A9D0F5;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.에어데일테리어-dog-title{
+    color: #81F79F;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.올드잉글리시쉽독-dog-title{
+    color: #D8F781;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.요크셔테리어-dog-title{
+    color: #F2F5A9;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.웰시코기-dog-title{
+    color: #FF8000;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.저먼셰퍼드-dog-title{
+    color: #610B21;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.진돗개-dog-title{
+    color: #CEE3F6;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.차우차우-dog-title{
+    color: #E1D740;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.치와와-dog-title{
+    color: #A9F5D0;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.코커스패니얼-dog-title{
+    color: #D0F5A9;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.파피용-dog-title{
+    color: #8904B1;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.포메라니안-dog-title{
+    color: #A4A4A4;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.푸들-dog-title{
+    color: #8A4B08;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.풍산개-dog-title{
+    color: #F8E0E0;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.text-center{
+    color: #DBA901;
+}
+
+.footer {
+    background-color: initial;
+    color: initial;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.at-resp-share-element {
+    position: relative;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.h5, h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FF0000;
+}
+
+
+
+
