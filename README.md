@@ -7,7 +7,7 @@
 ## Introduction
 This site finds a dog that looks like it.
 1. Compared to about 37 types of dogs.
-2. Learned through the Google Teachable machine.
+2. Learned through the Google Teachable machine 2.0.
 3. I referred to the YouTuber Jocoding video.
 
 ## Development Environment
