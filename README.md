@@ -17,3 +17,5 @@ This site finds a dog that looks like it.
 - Netlify
 
 ## Screenshot 
+<img width="866" alt="bulls" src="https://user-images.githubusercontent.com/57633459/140766379-7e71a4d1-bb3a-479f-8429-257f3543f667.PNG">
+
